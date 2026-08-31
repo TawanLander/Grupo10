@@ -5,6 +5,9 @@
   font-family: "Montserrat";
   color: black;
 }
+body {
+    background-color: red;
+}
 
 a {
   text-decoration: none;
@@ -22,5 +25,8 @@ ul {
 
 .nav-bar {
     padding: 2.5rem;
-    
+    border-bottom: solid 1px #000;
+    font-weight: 600;
+    background-color: blue;
 }
+
