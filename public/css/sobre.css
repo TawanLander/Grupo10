@@ -1,4 +1,3 @@
-/* ---------- SEÇÃO DESTAQUE COM FOTO DE FUNDO E FILTRO ---------- */
 .secao-destaque {
   position: relative;
   overflow: hidden;
@@ -25,7 +24,6 @@
   transform: scale(1.02);
 }
 
-/* Filtro gradiente e blur suave para destacar o texto mantendo a foto visível */
 .fundo-destaque-overlay {
   position: absolute;
   inset: 0;
