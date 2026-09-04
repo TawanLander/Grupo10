@@ -1,5 +1,0 @@
-function logar(email, senha) {
-    
-    
-
-}
