@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>FinSight — Inteligência para Renda Variável B3</title>
-  <link rel="icon" href="../assets/logo-transparente.png">
+  <link rel="icon" href="../assets/ico/logo-transparente.png">
   <link rel="stylesheet" href="../css/style-geral.css">
   <link rel="stylesheet" href="../css/inicio.css">
   <script src="../js/tema.js"></script>
@@ -16,28 +16,25 @@
     <div class="conteiner cabecalho-conteudo">
 
       <a href="../html/index.html" class="marca">
-        <img src="../assets/logo-transparente.png" alt="Logotipo FinSight">
+        <img src="../assets/ico/logo-transparente.png" alt="Logotipo FinSight">
         <span>FinSight</span>
       </a>
 
       <nav class="menu-navegacao">
-        <a href="./html/index.html" class="link-navegacao ativo">Início</a>
-        <a href="./html/sobre.html" class="link-navegacao">Sobre Nós</a>
-        <a href="./html/contato.html" class="link-navegacao">Contato</a>
+        <a href="index.html" class="link-navegacao ativo">Início</a>
+        <a href="sobre.html" class="link-navegacao">Sobre Nós</a>
+        <a href="contato.html" class="link-navegacao">Contato</a>
       </nav>
 
       <div class="acoes-cabecalho">
         <button type="button" id="btn-tema" class="btn-tema" title="Alternar tema claro/escuro"
           aria-label="Alternar tema claro e escuro">
-
-          <svg class="icone-sol" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-sun" viewBox="0 0 16 16">
+          <svg class="icone-sol bi bi-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
             <path
               d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
           </svg>
 
-          <svg class="icone-lua" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-moon" viewBox="0 0 16 16">
+          <svg class="icone-lua bi bi-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
             <path
               d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
           </svg>
@@ -52,6 +49,14 @@
   <main>
 
     <section class="secao secao-destaque">
+
+      <div class="video-fundo-conteiner" aria-hidden="true">
+        <video class="video-fundo" autoplay muted loop playsinline preload="auto">
+          <source src="../assets/pagina-inicial/video-secao-destaque.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
       <div class="conteiner grade-destaque">
 
         <div>
@@ -62,8 +67,8 @@
             prontos para decisão — sem integrações complexas e sem fórmulas manuais.
           </p>
           <div class="acoes-destaque">
-            <a href="sobre.html" class="btn btn-primario">Conhecer o Projeto</a>
-            <a href="contato.html" class="btn btn-vazado">Entrar em Contato</a>
+            <a href="./cadastro.html" class="btn btn-primario">Criar conta</a>
+            <a href="./sobre.html" class="btn btn-vazado">Conhecer o Projeto</a>
           </div>
         </div>
 
@@ -112,20 +117,21 @@
     </section>
 
     <section class="secao">
-      <div class="conteiner grade-duas-colunas">
+      <div class="conteiner secao-previa-dashboard">
 
-        <div class="quadro-visual">
-          <span>Prévia da Plataforma FinSight</span>
+        <div class="fundo-previa-conteiner" aria-hidden="true">
+          <img src="../assets/pagina-inicial/reuniao-inicial.jpg" class="fundo-previa-img">
+          <div class="fundo-previa-overlay"></div>
         </div>
 
-        <div>
+        <div class="conteudo-previa-dashboard">
           <span class="subtitulo-destaque">Como Funciona</span>
           <h2>Um painel que fala a língua do seu analista</h2>
           <p>
             Filtre por código do ativo, categoria e período de negociação. Acompanhe o ranking de maior e menor
             volatilidade da carteira para tomar decisões rápidas e embasadas.
           </p>
-          <a href="sobre.html" class="btn btn-vazado">Conheça nossa equipe</a>
+          <a href="./cadastro.html" class="btn btn-vazado">Criar conta</a>
         </div>
 
       </div>
@@ -140,7 +146,7 @@
 
         <div class="coluna-rodape">
           <div class="marca">
-            <img src="../assets/logo-transparente.png" alt="FinSight">
+            <img src="../assets/ico/logo-transparente.png" alt="FinSight">
             <span>FinSight</span>
           </div>
           <p>
