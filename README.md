@@ -223,10 +223,3 @@ Alunos do curso de **Análise e Desenvolvimento de Sistemas** da **SPTech - São
 | **Nicoly Baptista** | Desenvolvedora / Integrante do Grupo |
 | **Paola Veloso** | Desenvolvedora / Integrante do Grupo |
 | **Tawan Lander** | Desenvolvedor / Integrante do Grupo |
-
----
-
-## 📄 Licença
-
-Este projeto é desenvolvido para fins acadêmicos sob a licença [MIT](LICENSE).
-Instituição: **São Paulo Tech School - SPTech**.
